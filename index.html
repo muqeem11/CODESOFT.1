@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>   personal Protfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Protfolio</a></li> 
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1><b>Hi, I'm  <span>Muqeem</span><br> From Lucknow</b></h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Mohammad Muqeem, and I am computer science engineering student in 3rd year.
+                         I am passionate about web development and have developed skills in HTML, CSS, and JavaScript. 
+                         I enjoy working with frameworks like React and Angular to build dynamic and responsive web applications.
+                          My focus is on creating intuitive and user-friendly websites, utilizing both front-end and back-end technologies. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interFace</li>
+                            <li><span>Web evelopment</span><br>web app develoment</li>
+                            <li><span>App Development</span><br>building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interFace</li>
+                            <li><span>UI/UX</span><br>Designing web/app interFace</li>
+                            <li><span>UI/UX</span><br>Designing web/app interFace</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interFace</li>
+                            <li><span>UI/UX</span><br>Designing web/app interFace</li>
+                            <li><span>UI/UX</span><br>Designing web/app interFace</li>
+                        </ul>
+                    </div>
+
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptates eum molestias nesciunt iusto, illo iure et minus aliquam libero cum est recusandae obcaecati quis assumenda,
+                         architecto debitis voluptatem neque.</p>
+                         <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    
+                    <h2>Software Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptates eum molestias nesciunt iusto, illo iure et minus aliquam libero cum est recusandae obcaecati quis assumenda,
+                         architecto debitis voluptatem neque.</p>
+                         <a href="#"> Learn more</a>
+                </div>
+                <div>
+                   
+                    <h2> App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptates eum molestias nesciunt iusto, illo iure et minus aliquam libero cum est recusandae obcaecati quis assumenda,
+                         architecto debitis voluptatem neque.</p>
+                         <a href="#"> Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- protfolio -->
+    <div class="protfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg" >
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Seen more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="contaner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p>muqeemmekrani9@gmail.com</p>
+                    <p>+91 9919137676</p>
+                    
+                    <a href="resume.docx" class="btn btn2">Download Resume</a>
+                 </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2024 Mohammad . All rights reserved.</p>
+    </div>
+    
+</body>
+</html>
